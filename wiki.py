@@ -3,7 +3,7 @@ import csv
 
 input_file = csv.DictReader(open("Final_top_don_501_1000_copy.csv"))
 
-with open('final_names_output_2.csv', 'w') as f:
+with open('final_names_output_3.csv', 'w') as f:
     # initialize output file
     fieldnames = ['contributor.name', 'Birth date',
                   'Birth state', 'Death date', 'Death state', 'Source']
